@@ -3,4 +3,4 @@
 # Соколов Максим
 Моя домашняя работа
 
-[урок 12](max-madrat.github.io/lesson 12/ "")
+[Урок 12](max-madrat.github.io/lesson 12/ "")
