@@ -1,0 +1,223 @@
+/* Font settings */
+@font-face {
+  font-family: 'ProximaNova Reg';
+  src: url('ProximaNova-Regular.eot');
+  src: url('ProximaNova-Regular.eot?#iefix') format('embedded-opentype'), url('../fonts/ProximaNova-Regular.woff2') format('woff2'), url('../fonts/ProximaNova-Regular.woff') format('woff'), url('../fonts/ProximaNova-Regular.ttf') format('truetype'), url('../fonts/ProximaNova-Regular.svg#ProximaNova-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'ProximaNova Bold';
+  src: url('ProximaNova-Bold.eot');
+  src: url('ProximaNova-Bold.eot?#iefix') format('embedded-opentype'), url('../fonts/ProximaNova-Bold.woff2') format('woff2'), url('../fonts/ProximaNova-Bold.woff') format('woff'), url('../fonts/ProximaNova-Bold.ttf') format('truetype'), url('../fonts/ProximaNova-Bold.svg#ProximaNova-Bold') format('svg');
+  font-weight: bold;
+  font-style: normal;
+}
+/* color */
+/* basic settings */
+html {
+  font-family: 'ProximaNova Reg', sans-serif;
+  font-size: 10px;
+}
+html button:focus,
+html input:focus,
+html a:focus {
+  outline: none;
+}
+.button {
+  background-color: #fcb303;
+  border: none;
+  padding: 1rem 3rem;
+  border-radius: 6px;
+  color: #ffffff;
+  text-transform: uppercase;
+  transition: all 0.2s;
+}
+.button:hover {
+  cursor: pointer;
+  background-color: #e3a103;
+}
+/* tepography */
+section {
+  padding: 10rem 0;
+  text-align: center;
+}
+.section-header {
+  text-align: center;
+  margin: 2rem 10rem;
+  font-size: 3.6rem;
+  font-family: 'ProximaNova Reg', sans-serif;
+  margin-bottom: 6rem;
+}
+/* main */
+.main {
+  background-size: cover;
+  height: 100%;
+  background: url(../img/фон1.png) center center repeat;
+  padding: 3rem 0;
+}
+.main-content {
+  margin-top: 10rem;
+}
+.main-content h1 {
+  margin-bottom: 3rem;
+  text-transform: uppercase;
+  font-size: 4rem;
+  margin-top: 0;
+}
+.main-content .subtitle {
+  font-size: 2rem;
+  margin-bottom: 4rem;
+}
+.main-content span {
+  display: block;
+  font-size: 1.8rem;
+  color: #ffffff;
+  display: inline-block;
+  padding: 2rem 2rem;
+  text-align: center;
+  background-color: #46b814;
+  margin-bottom: 3rem;
+}
+.main-content span strong {
+  font-size: 3rem;
+  font-family: 'ProximaNova Reg', sans-serif;
+}
+.main-main-trigger {
+  display: block;
+  text-transform: uppercase;
+  font-size: 2.2rem;
+  font-family: 'ProximaNova Reg', sans-serif;
+}
+.main-title {
+  display: block;
+}
+.main-form {
+  display: block;
+  text-align: center;
+  padding: 4rem 5rem;
+  background-color: #ffffff;
+}
+.main-form h2 {
+  font-size: 1.8rem;
+  margin-bottom: 4rem;
+}
+.main-form h2 strong {
+  font-size: 1.9rem;
+}
+.main-form-input {
+  border: 1px solid #dddddd;
+  width: 100%;
+  display: block;
+  height: 5.4rem;
+  margin: 2rem 0;
+}
+.main-form label {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  font-size: 1.3rem;
+  padding: 0.5rem;
+  background-color: #ffffff;
+}
+.main-form-btn {
+  display: block;
+  width: 100%;
+  height: 65px;
+  margin-bottom: 20px;
+  font-size: 1.6rem;
+}
+.phone-link {
+  font-family: 'ProximaNova Reg', sans-serif;
+  display: inline-block;
+  color: #1a1820;
+  font-size: 1.7rem;
+  font-weight: 900;
+  height: 7rem;
+  line-height: 7rem;
+}
+.header {
+  height: 7rem;
+}
+.wrap {
+  display: table;
+  width: 100%;
+  height: 7rem;
+  text-align: right;
+}
+.wrap-block {
+  display: table-cell;
+  vertical-align: middle;
+}
+/* Оформление секции с приемуществами */
+.feaatures-block {
+  text-align: center;
+}
+.feaatures-block p {
+  font-size: 1.6rem;
+  display: inline-block;
+  width: 80%;
+}
+.feaatures-block h3 {
+  font-family: 'ProximaNova Reg', sans-serif;
+  font-size: 2rem;
+  margin-bottom: 3rem;
+}
+.feaatures-img {
+  height: 8rem;
+  margin-bottom: 3rem;
+}
+.feaatures-img img {
+  display: block;
+  margin: 0 auto;
+}
+.slick-active {
+  outline: none;
+}
+.slick-slide img {
+  display: block;
+  margin: 3rem auto;
+}
+.arrow {
+  top: 50%;
+  transform: translateY(-50%);
+  position: absolute;
+  z-index: 99;
+  width: 2rem;
+  height: 2rem;
+  border: none;
+}
+.prev {
+  left: 0;
+  background: url(../img/left-arrow.svg) center no-repeat;
+  background-size: 70%;
+}
+.next {
+  right: 0;
+  background: url(../img/right-arrow.svg) center no-repeat;
+  background-size: 70%;
+}
+@media (max-width: 991px) {
+  .main {
+    background-position: top right;
+  }
+  .main-content {
+    text-align: center;
+  }
+  .main-form {
+    margin-top: 20px;
+  }
+}
+@media (max-width: 767px) {
+  .main {
+    background-position: top left;
+    text-align: center;
+  }
+  .main h1 {
+    font-size: 3rem;
+    margin-top: 4rem;
+  }
+  .wrap {
+    text-align: center;
+  }
+}
