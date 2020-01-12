@@ -44,12 +44,18 @@
 html{
 	.reg();
 	font-size: 10px;
+	 
 
 button, input, a, textarea{
 	&:focus{
 		outline: none;
 	}
 }
+
+}
+
+body{
+	overflow-x: hidden;
 }
 
 .button{
@@ -420,6 +426,12 @@ section{
 }
 
 @media (max-width: 767px){
+	html{
+		overflow-x: hidden; 
+	}
+	body{overflow-x: hidden; 
+		width: 100%;
+	}
 	.main{
 		background-position: top left;
 		h1{

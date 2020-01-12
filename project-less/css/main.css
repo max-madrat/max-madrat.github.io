@@ -25,6 +25,9 @@ html a:focus,
 html textarea:focus {
   outline: none;
 }
+body {
+  overflow-x: hidden;
+}
 .button {
   background-color: #fcb303;
   border: none;
@@ -339,6 +342,13 @@ section {
   }
 }
 @media (max-width: 767px) {
+  html {
+    overflow-x: hidden;
+  }
+  body {
+    overflow-x: hidden;
+    width: 100%;
+  }
   .main {
     background-position: top left;
     text-align: center;
